@@ -1,0 +1,10 @@
+header > div:first-child {
+    background-color: var(--color-pink);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    letter-spacing: 0.1em;
+    font-size: 0.7em;
+}

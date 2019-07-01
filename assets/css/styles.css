@@ -1,0 +1,14 @@
+:root {
+    --color-pink: #FB9593;
+}
+
+@font-face {
+    font-family: "Proxime-nova-regular";
+    src: url("../fonts/ProximaNova-Regular.otf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Proxime-nova-regular", sans-serif;
+}
