@@ -1,5 +1,6 @@
 :root {
     --color-pink: #FB9593;
+    --color-blue: #63c1c1;
 }
 
 @font-face {
@@ -11,4 +12,16 @@
     margin: 0;
     padding: 0;
     font-family: "Proxime-nova-regular", sans-serif;
+}
+
+.hidden {
+    display: none;
+}
+
+.vs-hidden {
+    visibility: hidden;
+}
+
+.bold {
+    font-weight: bold;
 }

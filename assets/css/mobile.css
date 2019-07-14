@@ -8,3 +8,307 @@ header > div:first-child {
     letter-spacing: 0.1em;
     font-size: 0.7em;
 }
+
+div.nav-desktop {
+    display: none;
+}
+
+div.nav-mobile > div:first-child {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5px 0;
+}
+
+div.nav-mobile > div:first-child > img {
+    height: 3em;
+}
+
+div.nav-mobile nav {
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+div.nav-mobile nav ul {
+    list-style: none;
+    width: 100%;
+    text-align: center;
+}
+
+div.nav-mobile nav li {
+    padding: 0.5em 0;
+    border-top: var(--color-pink) solid 1px;
+}
+
+div.nav-mobile ul li:nth-child(7) {
+    color: var(--color-pink);
+}
+
+input#open-nav-mobile:checked ~ nav {
+    display: flex;
+}
+
+section.landing {
+    background-image: url("../images/candyscrubs.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 10em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+section.landing p {
+    margin: 1em 0;
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+section.landing button {
+    border: var(--color-blue) solid 1px;
+    background: none;
+    color: var(--color-blue);
+    padding: 0.2em 0.3em;
+}
+
+section.candy-for-your-skin {
+    padding: 1em 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../images/home-bg-left@2x.png"),
+                      url("../images/home-bg-right@2x.png");
+    background-position: 0 2%, 100% 90%;
+    background-size: 185px 155px, 119px 170px;
+    background-repeat: no-repeat;
+}
+
+section.candy-for-your-skin h2 {
+    color: var(--color-blue);
+    font-size: 1em;
+}
+
+section.candy-for-your-skin > p {
+    margin-top: 1em;
+    text-align: center;
+}
+
+section.candy-for-your-skin > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+section.candy-for-your-skin > div > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+section.candy-for-your-skin > div > div img {
+    height: 15em;
+}
+
+section.candy-for-your-skin > div > div p {
+    margin: 1em 0;
+}
+
+section.candy-for-your-skin > div > div button {
+    color: var(--color-blue);
+    border: var(--color-blue) solid 1px;
+    padding: 0.5em 1em;
+    background: none;
+    margin-bottom: 2em;
+}
+
+section.news-letter {
+    color: white;
+    padding: 2em 2em;
+    background-color: var(--color-pink);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+section.news-letter > img {
+    height: 11em;
+}
+
+section.news-letter > div {
+    padding: 2em 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+section.news-letter > div > form {
+    width: 100%;
+    padding-top: 1em;
+}
+
+section.news-letter > div > form > input {
+    background: none;
+    border: none;
+    border-bottom: white solid 1px;
+    padding: 0.46em 0;
+    width: 60%;
+}
+
+section.news-letter > div > form > input::placeholder {
+    color: white;
+    font-weight: lighter;
+    font-size: 0.8rem;
+}
+
+section.news-letter > div > form > button {
+    color: white;
+    background: none;
+    padding: 0.5em 0.5em;
+    border: white solid 1px;
+    width: 35%;
+}
+
+section.your-hands-crave-moisture {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1em 1em;
+}
+
+section.your-hands-crave-moisture > div > p {
+    margin: 1em 0;
+}
+
+section.your-hands-crave-moisture > div > button {
+    background: none;
+    color: var(--color-blue);
+    border: var(--color-blue) solid 1px;
+    padding: 0.5em 1em;
+}
+
+section.your-hands-crave-moisture > img {
+    height: 13em;
+    margin-top: 1em;
+}
+
+div.separator {
+    padding: 1em 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.separator p {
+    width: fit-content;
+    padding: 0 1em;
+    color: var(--color-blue);
+}
+
+div.separator > span {
+    padding: 0 2em;
+    width: max-content;
+    border-top: var(--color-blue) solid 1px;
+}
+
+section.more-this-way {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+section.more-this-way > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+section.more-this-way > div > img {
+    height: 12em;
+}
+
+section.more-this-way > p {
+    padding: 2em 1em;
+    font-size: 0.8rem;
+    color: var(--color-blue);
+}
+
+footer {
+    padding: 2em 1em;
+    background-color: #fdf3f2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+footer > img {
+    height: 10em;
+}
+
+footer > ul {
+    width: 10em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    padding-top: 1em;
+}
+
+footer > ul > li {
+    padding-bottom: 1em;
+}
+
+footer > form {
+    display: flex;
+    flex-direction: column;
+}
+
+footer > form > div:nth-child(2) {
+    border-bottom: var(--color-pink) solid 1px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--color-pink);
+    padding: 0.5em 0;
+}
+
+footer > form > div:nth-child(2) > input {
+    background: none;
+    border: none;
+}
+
+footer > form > div:nth-child(2) > input::placeholder {
+    color: var(--color-pink);
+}
+
+footer > form > div:nth-child(3) {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 1em;
+}
+
+footer > form > div:nth-child(3) > img {
+    height: 1.5em;
+    padding-right: 1em;
+}
+
+body > div:last-child {
+    text-align: center;
+    background: var(--color-pink);
+    color: white;
+}

@@ -1,0 +1,128 @@
+@media (min-width: 1025px){
+    div.nav-mobile {
+        display: none;
+    }
+
+    div.nav-desktop {
+        padding: 1em 2em;
+        display: block;
+    }
+
+    div.nav-desktop > div {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    div.nav-desktop > div > div:first-child {
+        border-bottom: var(--color-pink) solid 2px;
+        color: var(--color-pink);
+    }
+
+    div.nav-desktop > div > div:first-child > input {
+        border: none;
+    }
+
+    div.nav-desktop > div > div:first-child > input::placeholder {
+        color: var(--color-pink);
+    }
+
+    div.nav-desktop > div > div:last-child {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        color: var(--color-pink);
+    }
+
+    div.nav-desktop > div > div:last-child > p:nth-child(2) {
+        border-left: var(--color-pink) solid 1px;
+        padding: 0 1em 0 0.5em;
+        margin-left: 0.5em;
+    }
+
+    div.nav-desktop > ul {
+        margin-top: 1em;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        list-style: none;
+    }
+
+    section.landing {
+        height: 30em;
+    }
+
+    section.landing > h2 {
+        font-size: 4rem;
+    }
+
+    section.landing > p {
+        width: 30em;
+        font-size: 1rem;
+    }
+
+    section.landing > button {
+        padding: 1em 2em;
+    }
+
+    section.candy-for-your-skin > h2 {
+        font-size: 2rem;
+    }
+
+    section.candy-for-your-skin > p {
+        font-size: 1.5rem;
+        width: 30em;
+    }
+
+    section.candy-for-your-skin > div {
+        width: 50em;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    section.news-letter {
+        padding: 4em 20em;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    section.news-letter > div {
+        width: 30em;
+    }
+
+    section.your-hands-crave-moisture {
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    section.your-hands-crave-moisture > div {
+        width: 30em;
+    }
+
+    section.your-hands-crave-moisture > img {
+        height: 20em;
+    }
+
+    section.more-this-way > div {
+        margin: 3em 0;
+        width: 60em;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    footer {
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    footer > ul {
+        align-items: normal;
+    }
+
+    div.separator > span {
+        padding: 0 10em;
+    }
+}
